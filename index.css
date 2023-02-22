@@ -41,9 +41,11 @@
 .E-learningText h2{
     font-size: 34px;
     color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .E-learningText p{
     line-height: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(73, 73, 73);
 }
 .E-learningImage img{
@@ -58,9 +60,21 @@
     color: white;
     height: 40px;
     border-radius: 5px;
+    transition: background ease 300ms;
+}
+.btn11:hover{
+    background-color: #0101ff;
+    
+    border: 1px solid rgb(0, 34, 255);
+}
+.btn10:hover{
+    background-color: rgb(221, 223, 228);
+    color:black;
+    border: none;
 }
 .btn10{
     background-color:white;
+    transition: background ease 300ms;
     color: blue;
     border: 1px solid blue;
    
@@ -73,6 +87,12 @@
     color: blue;
     height: 40px;
     border-radius: 5px;
+
+    transition: background ease 600ms;
+}
+.btn12:hover{
+    background-color: #0101ff;
+    color: white;
 }
 .blur1{
     filter: blur(20px);
@@ -167,7 +187,7 @@ margin-top: 20px;
 .lecturallogin2{
     margin-top: -80px;
 }
-
+.btn20:hover
 .LogInProfile{
     width: 600px;
     position: relative;
@@ -187,3 +207,1424 @@ margin-top: 20px;
 .LoginInput123{
     margin-bottom: 77740px;
 }
+
+
+
+@media screen and (max-width:1150px) {
+    .logoMain{
+        display: grid;
+        /* background-color: red; */
+        margin-left: 100px;
+        grid-template-columns: 44% 50% ;
+    }
+    .logoview{
+        display: grid;
+      
+        grid-template-columns: 20% 70% ;
+    }
+    .logoview img{
+        width: 45px;
+        font-size: 1px;
+        margin-top: 15px;
+        margin-left: -80px;
+    }
+    .logoview h2{
+        font-size: 19px;
+        margin-left: -60px;
+        color: rgb(42, 109, 254);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .details1{
+        margin-top: 15px;
+        display: grid;
+        margin-left: 200px;
+        grid-template-columns: 50% 90%;
+    }
+    .contain3{
+        display: grid;
+        margin-left: -190px;
+        grid-template-columns:  50% 50%;
+        padding: 30px;
+    }
+    .E-learningText{
+        width: 400px;
+        margin-top:30px ;
+        margin-left: 250px;
+    
+    }
+    .E-learningText {
+        width: 300px;
+        
+    }
+    .E-learningText h2{
+        font-size: 30px;
+        color: black;
+    }
+    .E-learningText p{
+        line-height: 22px;
+        color: rgb(73, 73, 73);
+    }
+    .E-learningImage img{
+        width: 300px;
+        height: 230px;
+        margin-left: 150px;
+        margin-top:60px ;
+        
+    }
+    .btn11{
+        background-color: blue;
+        border: none;
+        color: white;
+        font-size: 12px;
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn10{
+        background-color:white;
+        color: blue;
+        border: 1px solid blue;
+       
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn12{
+        background-color:white;
+        border: 1px solid blue;
+        color: blue;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .blur1{
+        filter: blur(20px);
+        /* background-color: red; */
+    }
+    .hid4{
+        display: none;
+    }
+    
+    .hidImage{
+        display: none;
+    }
+    .StudentSignUp{
+        margin-top: 0px;
+        margin-left: 275px;
+    }
+    .StudentSignUp{
+        display: grid;
+        position: relative;
+    }
+    .usersprofile2{
+        margin-left: 270px;
+        margin-top: 60px;
+    
+    }
+    .usersprofile2 h2 {
+        padding-top: 30px;
+        color: rgb(49, 93, 215);
+    }
+    .fa-id-card{
+        color: rgb(27, 118, 204);
+        /* background-color: rgba(233, 114, 17, 0.297); */
+    }
+    .inputColor{
+        background-color:transparent;
+        height: 230px;
+        border-radius: 100%;
+        margin-top: -180px;
+       
+        width: 180px;
+    
+    }
+    .inputColor2{
+    
+        display: grid;
+        margin-left: 600px;
+        /* j
+        .ustify-content: end; */
+    }
+    .fa-calculator{
+        color: rgb(27, 118, 204);
+        margin-right: 7px;
+        
+    }
+    .fa-file-pdf{
+        /* background-color: blue; */
+        color:rgb(27, 118, 204);
+    }
+    .fa-circle-check{
+        color:rgb(27, 118, 204) ;
+        margin-right: 4px;
+    }
+    .LoginInput1{
+    margin-top: 20px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: ;
+        border: 1px solid rgb(54, 100, 216);
+        width: 250px;
+        outline: none;
+    }
+    
+        
+    
+    .LoginInput1::placeholder{
+         padding-left: 30px;
+    
+    }
+    .loginBtnlog{
+        margin-left: -155px;
+    }
+    .lecturallogin {
+        padding-top: 40px;
+        padding-left: 130px;
+        margin-top: 70px;
+      
+        width: 360px;
+        background-color: rgb(223, 226, 226);
+        height: 300px;
+        margin-left:-80px ;
+    }
+    .lecturallogin2{
+        margin-top: -80px;
+    }
+    
+    .LogInProfile{
+        width: 600px;
+        position: relative;
+        height: 600px;
+        margin-top: -550px;
+        padding-top: 120px;
+        margin-left: 260px;
+        padding-left: 300px;
+        background-color: rgb(244, 244, 248);
+    }   
+    .studentlogin1{
+        margin-top: -260px;
+        margin-left: 50px;
+        margin-bottom: 880px;
+        /* background-color: red; */
+    }
+    .LoginInput123{
+        margin-bottom: 77740px;
+    }
+
+
+    
+}
+
+@media screen and (max-width:1150px) {
+    .logoMain{
+        display: grid;
+        /* background-color: red; */
+        margin-left: 100px;
+        grid-template-columns: 44% 50% ;
+    }
+    .logoview{
+        display: grid;
+      
+        grid-template-columns: 25% 0% ;
+    }
+    .logoview img{
+        width: 45px;
+        font-size: 1px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .logoview h2{
+        font-size: 19px;
+        margin-left: -60px;
+        color: rgb(42, 109, 254);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .details1{
+        margin-top: 15px;
+        display: grid;
+        margin-left: 300px;
+        grid-template-columns: 35% 50%;
+    }
+    .contain3{
+        display: grid;
+        margin-left: -190px;
+        grid-template-columns: 50% 50%;
+        padding: 30px;
+    }
+    .E-learningText{
+        width: 400px;
+        margin-top:30px ;
+        margin-left: 250px;
+    
+    }
+    .E-learningText {
+        width: 400px;
+        
+    }
+    .E-learningText h2{
+        font-size: 30px;
+        color: black;
+    }
+    .E-learningText p{
+        line-height: 22px;
+        color: rgb(73, 73, 73);
+    }
+    .E-learningImage img{
+        width: 400px;
+        height: 280px;
+        margin-left: 150px;
+        margin-top:60px ;
+        
+    }
+    .btn11{
+        background-color: blue;
+        border: none;
+        color: white;
+        font-size: 12px;
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn10{
+        background-color:white;
+        color: blue;
+        border: 1px solid blue;
+       
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn12{
+        background-color:white;
+        border: 1px solid blue;
+        color: blue;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .blur1{
+        filter: blur(20px);
+        /* background-color: red; */
+    }
+    .hid4{
+        display: none;
+    }
+    
+    .hidImage{
+        display: none;
+    }
+    .StudentSignUp{
+        margin-top: 0px;
+        margin-left: 275px;
+    }
+    .StudentSignUp{
+        display: grid;
+        position: relative;
+    }
+    .usersprofile2{
+        margin-left: 270px;
+        margin-top: 60px;
+    
+    }
+    .usersprofile2 h2 {
+        padding-top: 30px;
+        color: rgb(49, 93, 215);
+    }
+    .fa-id-card{
+        color: rgb(27, 118, 204);
+        /* background-color: rgba(233, 114, 17, 0.297); */
+    }
+    .inputColor{
+        background-color:transparent;
+        height: 230px;
+        border-radius: 100%;
+        margin-top: -180px;
+       
+        width: 180px;
+    
+    }
+    .inputColor2{
+    
+        display: grid;
+        margin-left: 600px;
+        /* j
+        .ustify-content: end; */
+    }
+    .fa-calculator{
+        color: rgb(27, 118, 204);
+        margin-right: 7px;
+        
+    }
+    .fa-file-pdf{
+        /* background-color: blue; */
+        color:rgb(27, 118, 204);
+    }
+    .fa-circle-check{
+        color:rgb(27, 118, 204) ;
+        margin-right: 4px;
+    }
+    .LoginInput1{
+    margin-top: 20px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: ;
+        border: 1px solid rgb(54, 100, 216);
+        width: 250px;
+        outline: none;
+    }
+    
+        
+    
+    .LoginInput1::placeholder{
+         padding-left: 30px;
+    
+    }
+    .loginBtnlog{
+        margin-left: -155px;
+    }
+    .lecturallogin {
+        padding-top: 40px;
+        padding-left: 130px;
+        margin-top: 70px;
+      
+        width: 360px;
+        background-color: rgb(223, 226, 226);
+        height: 300px;
+        margin-left:-80px ;
+    }
+    .lecturallogin2{
+        margin-top: -80px;
+    }
+    
+    .LogInProfile{
+        width: 600px;
+        position: relative;
+        height: 600px;
+        margin-top: -550px;
+        padding-top: 120px;
+        margin-left: 260px;
+        padding-left: 300px;
+        background-color: rgb(244, 244, 248);
+    }   
+    .studentlogin1{
+        margin-top: -260px;
+        margin-left: 50px;
+        margin-bottom: 880px;
+        /* background-color: red; */
+    }
+    .LoginInput123{
+        margin-bottom: 77740px;
+    }
+
+
+    
+}
+
+
+@media screen and (max-width:750px) {
+    .logoMain{
+        display: grid;
+        /* background-color: red; */
+        margin-left: 100px;
+        grid-template-columns: 44% 50% ;
+    }
+    .logoview{
+        display: grid;
+      
+        grid-template-columns: 20% 70% ;
+    }
+    .logoview img{
+        width: 45px;
+        font-size: 1px;
+        margin-top: 15px;
+        margin-left: -80px;
+    }
+    .logoview h2{
+        font-size: 19px;
+        margin-left: -60px;
+        color: rgb(42, 109, 254);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .details1{
+        margin-top: 15px;
+        display: grid;
+        margin-left: 80px;
+        grid-template-columns: 40% 50%;
+    }
+    .contain3{
+        display: grid;
+        margin-left: -190px;
+        grid-template-columns:  50%;
+        padding: 30px;
+    }
+    .E-learningText{
+        width: 400px;
+        margin-top:30px ;
+        margin-left: 300px;
+    
+    }
+    .E-learningText {
+        width: 400px;
+        
+    }
+    .E-learningText h2{
+        font-size: 30px;
+        color: black;
+    }
+    .E-learningText p{
+        line-height: 22px;
+        color: rgb(73, 73, 73);
+    }
+    .E-learningImage img{
+        width: 400px;
+        height: 230px;
+        margin-left: 300px;
+        margin-top:60px ;
+        
+        
+    }
+    .btn11{
+        background-color: blue;
+        border: none;
+        color: white;
+        font-size: 12px;
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn10{
+        background-color:white;
+        color: blue;
+        border: 1px solid blue;
+       
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn12{
+        background-color:white;
+        border: 1px solid blue;
+        color: blue;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .blur1{
+        filter: blur(20px);
+        /* background-color: red; */
+    }
+    .hid4{
+        display: none;
+    }
+    
+    .hidImage{
+        display: none;
+    }
+    .StudentSignUp{
+        margin-top: 0px;
+        margin-left: 275px;
+    }
+    .StudentSignUp{
+        display: grid;
+        position: relative;
+    }
+    .usersprofile2{
+        margin-left: 270px;
+        margin-top: 60px;
+    
+    }
+    .usersprofile2 h2 {
+        padding-top: 30px;
+        color: rgb(49, 93, 215);
+    }
+    .fa-id-card{
+        color: rgb(27, 118, 204);
+        /* background-color: rgba(233, 114, 17, 0.297); */
+    }
+    .inputColor{
+        background-color:transparent;
+        height: 230px;
+        border-radius: 100%;
+        margin-top: -180px;
+       
+        width: 180px;
+    
+    }
+    .inputColor2{
+    
+        display: grid;
+        margin-left: 600px;
+        /* j
+        .ustify-content: end; */
+    }
+    .fa-calculator{
+        color: rgb(27, 118, 204);
+        margin-right: 7px;
+        
+    }
+    .fa-file-pdf{
+        /* background-color: blue; */
+        color:rgb(27, 118, 204);
+    }
+    .fa-circle-check{
+        color:rgb(27, 118, 204) ;
+        margin-right: 4px;
+    }
+    .LoginInput1{
+    margin-top: 20px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: ;
+        border: 1px solid rgb(54, 100, 216);
+        width: 250px;
+        outline: none;
+    }
+    
+        
+    
+    .LoginInput1::placeholder{
+         padding-left: 30px;
+    
+    }
+    .loginBtnlog{
+        margin-left: -155px;
+    }
+    .lecturallogin {
+        padding-top: 40px;
+        padding-left: 130px;
+        margin-top: 70px;
+      
+        width: 360px;
+        background-color: rgb(223, 226, 226);
+        height: 300px;
+        margin-left:-80px ;
+    }
+    .lecturallogin2{
+        margin-top: -80px;
+    }
+    
+    .LogInProfile{
+        width: 600px;
+        position: relative;
+        height: 600px;
+        margin-top: -550px;
+        padding-top: 120px;
+        margin-left: 260px;
+        padding-left: 300px;
+        background-color: rgb(244, 244, 248);
+    }   
+    .studentlogin1{
+        margin-top: -260px;
+        margin-left: 50px;
+        margin-bottom: 880px;
+        /* background-color: red; */
+    }
+    .LoginInput123{
+        margin-bottom: 77740px;
+    }
+
+
+    
+}
+
+@media screen and (max-width:650px) {
+    .logoMain{
+        display: grid;
+        /* background-color: red; */
+        margin-left: 100px;
+        grid-template-columns: 44% 50% ;
+    }
+    .logoview{
+        display: grid;
+      
+        grid-template-columns: 20% 70% ;
+    }
+    .logoview img{
+        width: 45px;
+        font-size: 1px;
+        margin-top: 15px;
+        margin-left: -80px;
+    }
+    .logoview h2{
+        font-size: 19px;
+        margin-left: -60px;
+        color: rgb(42, 109, 254);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .details1{
+        margin-top: 15px;
+        display: grid;
+        margin-left: 80px;
+        grid-template-columns: 40% 50%;
+    }
+    .contain3{
+        display: grid;
+        margin-left: -190px;
+        grid-template-columns:  50%;
+        padding: 30px;
+    }
+    .E-learningText{
+        width: 400px;
+        margin-top:30px ;
+        margin-left: 250px;
+    
+    }
+    .E-learningText {
+        width: 400px;
+        
+    }
+    .E-learningText h2{
+        font-size: 30px;
+        color: black;
+    }
+    .E-learningText p{
+        line-height: 22px;
+        color: rgb(73, 73, 73);
+    }
+    .E-learningImage img{
+        width: 400px;
+        height: 230px;
+        margin-left: 250px;
+        margin-top:60px ;
+        
+    }
+    .btn11{
+        background-color: blue;
+        border: none;
+        color: white;
+        font-size: 12px;
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn10{
+        background-color:white;
+        color: blue;
+        border: 1px solid blue;
+       
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn12{
+        background-color:white;
+        border: 1px solid blue;
+        color: blue;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .blur1{
+        filter: blur(20px);
+        /* background-color: red; */
+    }
+    .hid4{
+        display: none;
+    }
+    
+    .hidImage{
+        display: none;
+    }
+    .StudentSignUp{
+        margin-top: 0px;
+        margin-left: 275px;
+    }
+    .StudentSignUp{
+        display: grid;
+        position: relative;
+    }
+    .usersprofile2{
+        margin-left: 270px;
+        margin-top: 60px;
+    
+    }
+    .usersprofile2 h2 {
+        padding-top: 30px;
+        color: rgb(49, 93, 215);
+    }
+    .fa-id-card{
+        color: rgb(27, 118, 204);
+        /* background-color: rgba(233, 114, 17, 0.297); */
+    }
+    .inputColor{
+        background-color:transparent;
+        height: 230px;
+        border-radius: 100%;
+        margin-top: -180px;
+       
+        width: 180px;
+    
+    }
+    .inputColor2{
+    
+        display: grid;
+        margin-left: 600px;
+        /* j
+        .ustify-content: end; */
+    }
+    .fa-calculator{
+        color: rgb(27, 118, 204);
+        margin-right: 7px;
+        
+    }
+    .fa-file-pdf{
+        /* background-color: blue; */
+        color:rgb(27, 118, 204);
+    }
+    .fa-circle-check{
+        color:rgb(27, 118, 204) ;
+        margin-right: 4px;
+    }
+    .LoginInput1{
+    margin-top: 20px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: ;
+        border: 1px solid rgb(54, 100, 216);
+        width: 250px;
+        outline: none;
+    }
+    
+        
+    
+    .LoginInput1::placeholder{
+         padding-left: 30px;
+    
+    }
+    .loginBtnlog{
+        margin-left: -155px;
+    }
+    .lecturallogin {
+        padding-top: 40px;
+        padding-left: 130px;
+        margin-top: 70px;
+      
+        width: 360px;
+        background-color: rgb(223, 226, 226);
+        height: 300px;
+        margin-left:-80px ;
+    }
+    .lecturallogin2{
+        margin-top: -80px;
+    }
+    
+    .LogInProfile{
+        width: 600px;
+        position: relative;
+        height: 600px;
+        margin-top: -550px;
+        padding-top: 120px;
+        margin-left: 260px;
+        padding-left: 300px;
+        background-color: rgb(244, 244, 248);
+    }   
+    .studentlogin1{
+        margin-top: -260px;
+        margin-left: 50px;
+        margin-bottom: 880px;
+        /* background-color: red; */
+    }
+    .LoginInput123{
+        margin-bottom: 77740px;
+    }
+
+
+    
+}
+
+@media screen and (max-width:550px) {
+
+    .logoMain{
+        display: grid;
+        /* background-color: red; */
+        margin-left: 100px;
+        grid-template-columns: 44% 50% ;
+    }
+    .logoview{
+        display: grid;
+      
+        grid-template-columns: 20% 70% ;
+    }
+    .logoview img{
+        width: 45px;
+        font-size: 1px;
+        margin-top: 15px;
+        margin-left: -80px;
+    }
+    .logoview h2{
+        font-size: 19px;
+        margin-left: -60px;
+        color: rgb(42, 109, 254);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .details1{
+        margin-top: 15px;
+        display: grid;
+        margin-left: 0px;
+        grid-template-columns: 50% 50%;
+    }
+    .contain3{
+        display: grid;
+        margin-left: -190px;
+        grid-template-columns:  50%;
+        padding: 30px;
+    }
+    .E-learningText{
+        width: 400px;
+        margin-top:30px ;
+        margin-left: 250px;
+    
+    }
+    .E-learningText {
+        width: 300px;
+        
+    }
+    .E-learningText h2{
+        font-size: 30px;
+        color: black;
+    }
+    .E-learningText p{
+        line-height: 22px;
+        color: rgb(73, 73, 73);
+    }
+    .E-learningImage img{
+        width: 300px;
+        height: 230px;
+        margin-left: 200px;
+        margin-top:60px ;
+        
+    }
+    .btn11{
+        background-color: blue;
+        border: none;
+        color: white;
+        font-size: 12px;
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn10{
+        background-color:white;
+        color: blue;
+        border: 1px solid blue;
+       
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn12{
+        background-color:white;
+        border: 1px solid blue;
+        color: blue;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .blur1{
+        filter: blur(20px);
+        /* background-color: red; */
+    }
+    .hid4{
+        display: none;
+    }
+    
+    .hidImage{
+        display: none;
+    }
+    .StudentSignUp{
+        margin-top: 0px;
+        margin-left: 275px;
+    }
+    .StudentSignUp{
+        display: grid;
+        position: relative;
+    }
+    .usersprofile2{
+        margin-left: 270px;
+        margin-top: 60px;
+    
+    }
+    .usersprofile2 h2 {
+        padding-top: 30px;
+        color: rgb(49, 93, 215);
+    }
+    .fa-id-card{
+        color: rgb(27, 118, 204);
+        /* background-color: rgba(233, 114, 17, 0.297); */
+    }
+    .inputColor{
+        background-color:transparent;
+        height: 230px;
+        border-radius: 100%;
+        margin-top: -180px;
+       
+        width: 180px;
+    
+    }
+    .inputColor2{
+    
+        display: grid;
+        margin-left: 600px;
+        /* j
+        .ustify-content: end; */
+    }
+    .fa-calculator{
+        color: rgb(27, 118, 204);
+        margin-right: 7px;
+        
+    }
+    .fa-file-pdf{
+        /* background-color: blue; */
+        color:rgb(27, 118, 204);
+    }
+    .fa-circle-check{
+        color:rgb(27, 118, 204) ;
+        margin-right: 4px;
+    }
+    .LoginInput1{
+    margin-top: 20px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: ;
+        border: 1px solid rgb(54, 100, 216);
+        width: 250px;
+        outline: none;
+    }
+    
+        
+    
+    .LoginInput1::placeholder{
+         padding-left: 30px;
+    
+    }
+    .loginBtnlog{
+        margin-left: -155px;
+    }
+    .lecturallogin {
+        padding-top: 40px;
+        padding-left: 130px;
+        margin-top: 70px;
+      
+        width: 360px;
+        background-color: rgb(223, 226, 226);
+        height: 300px;
+        margin-left:-80px ;
+    }
+    .lecturallogin2{
+        margin-top: -80px;
+    }
+    
+    .LogInProfile{
+        width: 600px;
+        position: relative;
+        height: 600px;
+        margin-top: -550px;
+        padding-top: 120px;
+        margin-left: 260px;
+        padding-left: 300px;
+        background-color: rgb(244, 244, 248);
+    }   
+    .studentlogin1{
+        margin-top: -260px;
+        margin-left: 50px;
+        margin-bottom: 880px;
+        /* background-color: red; */
+    }
+    .LoginInput123{
+        margin-bottom: 77740px;
+    }
+
+    
+}
+@media screen and (max-width:450px) {
+
+    .logoMain{
+        display: grid;
+        /* background-color: red; */
+        margin-left: 100px;
+        grid-template-columns: 44% 50% ;
+    }
+    .logoview{
+        display: grid;
+      
+        grid-template-columns: 20% 70% ;
+    }
+    .logoview img{
+        width: 45px;
+        font-size: 1px;
+        margin-top: 15px;
+        margin-left: -80px;
+    }
+    .logoview h2{
+        font-size: 19px;
+        margin-left: -60px;
+        color: rgb(42, 109, 254);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .details1{
+        margin-top: 15px;
+        display: grid;
+        margin-left: 0px;
+        grid-template-columns: 50% 50%;
+    }
+    .contain3{
+        display: grid;
+        margin-left: -190px;
+        grid-template-columns:  50%;
+        padding: 30px;
+    }
+    .E-learningText{
+        width: 400px;
+        margin-top:30px ;
+        margin-left: 210px;
+    
+    }
+    .E-learningText {
+        width: 300px;
+        
+    }
+    .E-learningText h2{
+        font-size: 30px;
+        color: black;
+    }
+    .E-learningText p{
+        line-height: 22px;
+        color: rgb(73, 73, 73);
+    }
+    .E-learningImage img{
+        width: 300px;
+        height: 230px;
+        margin-left: 200px;
+        margin-top:60px ;
+        
+    }
+    .btn11{
+        background-color: blue;
+        border: none;
+        color: white;
+        font-size: 12px;
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn10{
+        background-color:white;
+        color: blue;
+        border: 1px solid blue;
+       
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn12{
+        background-color:white;
+        border: 1px solid blue;
+        color: blue;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .blur1{
+        filter: blur(20px);
+        /* background-color: red; */
+    }
+    .hid4{
+        display: none;
+    }
+    
+    .hidImage{
+        display: none;
+    }
+    .StudentSignUp{
+        margin-top: 0px;
+        margin-left: 275px;
+    }
+    .StudentSignUp{
+        display: grid;
+        position: relative;
+    }
+    .usersprofile2{
+        margin-left: 270px;
+        margin-top: 60px;
+    
+    }
+    .usersprofile2 h2 {
+        padding-top: 30px;
+        color: rgb(49, 93, 215);
+    }
+    .fa-id-card{
+        color: rgb(27, 118, 204);
+        /* background-color: rgba(233, 114, 17, 0.297); */
+    }
+    .inputColor{
+        background-color:transparent;
+        height: 230px;
+        border-radius: 100%;
+        margin-top: -180px;
+       
+        width: 180px;
+    
+    }
+    .inputColor2{
+    
+        display: grid;
+        margin-left: 600px;
+        /* j
+        .ustify-content: end; */
+    }
+    .fa-calculator{
+        color: rgb(27, 118, 204);
+        margin-right: 7px;
+        
+    }
+    .fa-file-pdf{
+        /* background-color: blue; */
+        color:rgb(27, 118, 204);
+    }
+    .fa-circle-check{
+        color:rgb(27, 118, 204) ;
+        margin-right: 4px;
+    }
+    .LoginInput1{
+    margin-top: 20px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: ;
+        border: 1px solid rgb(54, 100, 216);
+        width: 250px;
+        outline: none;
+    }
+    
+        
+    
+    .LoginInput1::placeholder{
+         padding-left: 30px;
+    
+    }
+    .loginBtnlog{
+        margin-left: -155px;
+    }
+    .lecturallogin {
+        padding-top: 40px;
+        padding-left: 130px;
+        margin-top: 70px;
+      
+        width: 360px;
+        background-color: rgb(223, 226, 226);
+        height: 300px;
+        margin-left:-80px ;
+    }
+    .lecturallogin2{
+        margin-top: -80px;
+    }
+    
+    .LogInProfile{
+        width: 600px;
+        position: relative;
+        height: 600px;
+        margin-top: -550px;
+        padding-top: 120px;
+        margin-left: 260px;
+        padding-left: 300px;
+        background-color: rgb(244, 244, 248);
+    }   
+    .studentlogin1{
+        margin-top: -260px;
+        margin-left: 50px;
+        margin-bottom: 880px;
+        /* background-color: red; */
+    }
+    .LoginInput123{
+        margin-bottom: 77740px;
+    }
+
+    
+}
+
+@media screen and (max-width:346px) {
+
+    .logoMain{
+        display: grid;
+        /* background-color: red; */
+        margin-left: 80px;
+        grid-template-columns: 44% 50% ;
+    }
+    .logoview{
+        display: grid;
+      
+        grid-template-columns: 20% 70% ;
+    }
+    .logoview img{
+        width: 45px;
+        font-size: 1px;
+        margin-top: 15px;
+        margin-left: -80px;
+    }
+    .logoview h2{
+        font-size: 19px;
+        margin-left: -60px;
+        color: rgb(42, 109, 254);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .details1{
+        margin-top: 15px;
+        display: grid;
+        margin-left: -20px;
+        grid-template-columns: 47% 50%;
+    }
+    .contain3{
+        display: grid;
+        margin-left: -190px;
+        grid-template-columns:  50%;
+        padding: 30px;
+    }
+    .E-learningText{
+        width: 400px;
+        margin-top:30px ;
+        margin-left: 170px;
+    
+    }
+    .E-learningText {
+        width: 300px;
+        
+    }
+    .E-learningText h2{
+        font-size: 30px;
+        color: black;
+    }
+    .E-learningText p{
+        line-height: 22px;
+        color: rgb(73, 73, 73);
+    }
+    .E-learningImage img{
+        width: 300px;
+        height: 230px;
+        margin-left: 160px;
+        margin-top:60px ;
+        
+    }
+    .btn11{
+        background-color: blue;
+        border: none;
+        color: white;
+        font-size: 12px;
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn10{
+        background-color:white;
+        color: blue;
+        border: 1px solid blue;
+       
+        height: 32px;
+        border-radius: 5px;
+    }
+    .btn12{
+        background-color:white;
+        border: 1px solid blue;
+        color: blue;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .blur1{
+        filter: blur(20px);
+        /* background-color: red; */
+    }
+    .hid4{
+        display: none;
+    }
+    
+    .hidImage{
+        display: none;
+    }
+    .StudentSignUp{
+        margin-top: 0px;
+        margin-left: 275px;
+    }
+    .StudentSignUp{
+        display: grid;
+        position: relative;
+    }
+    .usersprofile2{
+        margin-left: 270px;
+        margin-top: 60px;
+    
+    }
+    .usersprofile2 h2 {
+        padding-top: 30px;
+        color: rgb(49, 93, 215);
+    }
+    .fa-id-card{
+        color: rgb(27, 118, 204);
+        /* background-color: rgba(233, 114, 17, 0.297); */
+    }
+    .inputColor{
+        background-color:transparent;
+        height: 230px;
+        border-radius: 100%;
+        margin-top: -180px;
+       
+        width: 180px;
+    
+    }
+    .inputColor2{
+    
+        display: grid;
+        margin-left: 600px;
+        /* j
+        .ustify-content: end; */
+    }
+    .fa-calculator{
+        color: rgb(27, 118, 204);
+        margin-right: 7px;
+        
+    }
+    .fa-file-pdf{
+        /* background-color: blue; */
+        color:rgb(27, 118, 204);
+    }
+    .fa-circle-check{
+        color:rgb(27, 118, 204) ;
+        margin-right: 4px;
+    }
+    .LoginInput1{
+    margin-top: 20px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: ;
+        border: 1px solid rgb(54, 100, 216);
+        width: 250px;
+        outline: none;
+    }
+    
+        
+    
+    .LoginInput1::placeholder{
+         padding-left: 30px;
+    
+    }
+    .loginBtnlog{
+        margin-left: -155px;
+    }
+    .lecturallogin {
+        padding-top: 40px;
+        padding-left: 130px;
+        margin-top: 70px;
+      
+        width: 360px;
+        background-color: rgb(223, 226, 226);
+        height: 300px;
+        margin-left:-80px ;
+    }
+    .lecturallogin2{
+        margin-top: -80px;
+    }
+    
+    .LogInProfile{
+        width: 600px;
+        position: relative;
+        height: 600px;
+        margin-top: -550px;
+        padding-top: 120px;
+        margin-left: 260px;
+        padding-left: 300px;
+        background-color: rgb(244, 244, 248);
+    }   
+    .studentlogin1{
+        margin-top: -260px;
+        margin-left: 50px;
+        margin-bottom: 880px;
+        /* background-color: red; */
+    }
+    .LoginInput123{
+        margin-bottom: 77740px;
+    }
+}
+
+
+
+
+
+
