@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+    <div class="cont">
+        <input type="text" class="mytext">
+
+    </div>
+
+    <button class="btn">create</button>
+    <script>
+        const btn = document.querySelector('.btn');
+        const mytext = document.querySelector('.mytext'); 
+        const cont =document.querySelector('.cont')
+
+
+
+
+
+        btn.addEventListener('click',function(){
+            const newPage = document.createElement('p');
+
+            
+            newPage.innerText = "wilwkjsp"
+        newPage.classList.add('show') 
+        
+        
+        var display= (mytext.value)
+        if(newPage.classList.contains(`${display}`) ){
+           cont.appendChild(newPage)  
+        }
+       
+
+         console.log(display);  
+        })
+           
+        
+    </script>
+</body>
+</html>

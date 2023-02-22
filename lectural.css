@@ -1,0 +1,404 @@
+.contain2{
+    display: grid;
+    grid-template-columns: 30% 50%;
+}
+body{
+    margin: 0px;
+}
+.dashboard{
+    display:grid;
+    /* background-color: blue; */
+    height: 100vh;
+    
+
+}
+
+.menu2 a{
+    text-decoration: none;
+    color: black;
+}
+.hid1{
+    display: none;
+}
+.logo2{
+    display: grid;
+    width: 230px;
+    background-color: red;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 45% 50%;
+    margin-bottom: ;
+}
+.logo2 img {
+    width: 70px;
+    margin-top: 13px;
+}
+.logo2 h1{
+    font-size: 16px;
+    margin-top: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu2{
+    margin-top: -150px;
+    padding-left: 60px;
+    width: 170px;
+    display: grid;
+    border--left-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    grid-template-rows: 15% 15% 14% 30% 20px;
+
+    /* background-color: red; */
+}
+.dashboard{
+    max-width: 400px;
+    border-top-left-radius: 10px;
+   
+box-shadow: -2px -2px 10px rgb(211, 211, 211);;
+    overflow: hidden;
+
+}
+.btn-signOut{
+    border: none;
+    color: white;
+    width: 80px;
+    background-color:rgb(31, 129, 220);
+    border-radius: 10px;
+    height: 40px;
+}
+.btn-signOut h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.header{
+    display: grid;
+    margin-top: 15px;
+    grid-template-columns: 70% 50%;
+
+
+}
+.header h2 {
+   
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header h3{
+    margin-left: 30%;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+}
+.status2{
+    /* background-color: red; */
+   
+}
+.addLecture{
+    /* background-color: blue; */
+    width: 400px;
+    height: 400px;
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.addLecture2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.hid{
+    display: none;
+}
+.fa-sharp{
+
+}
+
+.fa-plus{
+    font-size: 50px;
+    color: white;
+
+}
+.lecturebox{
+    background-color: rgb(95, 172, 244);
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+    width: 400px;
+    box-shadow: 2px 2px 8px rgb(205, 204, 204),-2px -2px 8px rgb(197, 195, 195) ;
+    height: 150px;
+    margin-left: 150px;
+    border-radius: 10px;
+
+    margin-top: 20px;
+    text-align: center;
+}
+.LectureInput{
+    margin-top: 100px;
+    margin-left: 120px;
+    overflow: hidden;
+    padding-top: 20px;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: -2px 2px 10px rgb(215, 214, 214),2px -2px 10px rgb(215, 214, 214);
+    background-color: rgb(69, 152, 208);
+}
+.LectureInput1{
+    height: 40px;
+    margin-top: 20px;
+    background-color: ;
+    border-radius: 10px;
+    margin-left: 70px;
+    width: 300px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.91);
+    border: none;
+}
+.btnAddLecture{
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+    justify-content: center;
+  
+    margin-left:00px;
+    border: none;
+    
+}
+.LectureInput1::placeholder{
+    padding-left: 30px;
+}
+.btnAddLecture a {
+    color: rgb(6, 86, 198);
+    text-decoration: none;
+    
+    
+}
+.addLectureBtn{
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+   
+    border-radius: 4px;
+
+    background-color: white;
+ 
+}
+.LectureInputFile{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.display-lecture{
+    width: 400px;
+    margin-left: 70px;
+
+    background-color: rgb(250, 250, 250);
+}
+.fa-book{
+    font-size: 60px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.fa-list-check{
+    font-size: 60px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.icon-text{
+    display: grid;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-template-columns: 50%50%;
+
+}
+.lectureArrange{
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+    margin-right:180px ;
+    margin-left: 60px;
+}
+.AssignmentArrange{
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+}
+.display-lecture-input{
+    display:;
+}
+.addAssignment{
+    width: 400px;
+    height: 400px;
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-top: 60px;
+
+}
+.LectureInputAssignment{
+    height: 90px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: -70px;
+    width: 300px;
+    /* border: none; */
+
+}
+.dashboardCover{
+    border-top-left-radius: 10px;
+    
+}
+.dashboardProfile{
+    display: grid;
+    width: 600px;
+    margin-left: 80px;
+    grid-template-columns: 60% 40%;
+    background-color: rgb(46, 140, 228);
+    box-shadow: 3px 3px 10px rgb(191, 189, 189),-3px -3px 10px rgb(219, 218, 218);
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.dashboardProfile h1{
+    font-size: 20px;
+    color: rgb(250, 250, 250);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.board2{
+    height: 400px;
+    box-shadow: 0px 10px 10px rgb(202, 199, 199),-10px -10px 10px rgb(227, 226, 226);
+    margin-top: 40px;
+    margin-left: 80px;
+   background-color: rgb(248, 249, 250);
+    width: 660px;
+    border-radius: 20px;
+}
+.dashboardProfile p{
+    font-size: 14px;
+    color: rgb(39, 39, 39);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.userImage{
+    width: 200px;
+    height: 110px;
+    /* background-color: red; */
+
+}
+
+.userImage img{
+    width: 100%;
+    margin-left: 20px;
+}
+.menu2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+  
+}
+.contain2{
+    padding-left: 80px;
+    width: 1250px;
+    padding-top: 40px;
+    background-color: rgb(255, 255, 255);
+   
+   
+}
+.status2{
+    background-color: rgb(249, 249, 249);
+     margin-left: -169px;
+     width: 900px;
+     margin-top: px;
+     padding-left: 20px;
+     padding-bottom: 40px;
+     border-top-right-radius: 10px;
+     box-shadow: 2px -2px 10px rgb(211, 211, 211) ;
+     border-bottom-right-radius: 10px;
+}
+.editprofile{
+    display: grid;
+    grid-template-columns: 50% 60%;
+}
+.profilepic{
+    /* background-color: rgb(139, 149, 219); */
+    width: 90px;
+   
+    margin-left: 50px; 
+    margin-top: 10px;
+    height: 100px;
+}
+.profilepic img {
+    width: 100%;
+}
+.picform{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.dataDisplay2{
+    height: 600px;
+    color: aliceblue;
+    width: 100px;
+}
+.hellow{
+
+    height: 50px;
+    width: 220px;
+     border: 1px solid rgba(77, 78, 79, 0.349);
+    margin-top: 40px;
+    margin-left: 50px;
+    position: relative;
+    z-index: 100;
+    border-radius: 10px;
+}
+.hellowMain{
+    height: 50px;
+    width: 220px;
+     border: 1px solid rgba(187, 191, 195, 0);
+    margin-top: 90px;
+    margin-left: 50px;
+    border-radius: 10px;
+    
+}
+.hellow p{
+    margin-top: 13px;
+    color: black;
+    padding-left: 10px;
+}
+.hellowMain p{
+    margin-top: 2px;
+    color: black;
+    padding-left: 10px;
+}
+.btn-edit-profile{
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: blue; */
+}
+.btnprofile{
+    height: 40px;
+    background-color:rgb(31, 132, 225);
+    border: none;
+    color: white;
+    border-radius: 6px;
+}
+/* .contain2{
+    margin-top: 40px;
+    margin-right: 30px;
+    padding-left: 100px;
+    width: 900px;
+    margin-left: 190px;
+    /* border: 2px solid red; */
+    /* box-shadow: -10px -7px 10px rgb(237, 235, 235),10px 7px 10px rgb(237, 235, 235);
+} */ 
+.lecturebox2{
+    /* background-color: red; */
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 200px;
+    padding-left: 30px;
+    box-shadow: 2px 2px 10px rgb(235, 232, 232),-2px -2px 10px rgb(216, 215, 215);
+}
+.hid3{
+    display: none;
+}
